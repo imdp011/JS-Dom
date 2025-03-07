@@ -1,4 +1,4 @@
-let button=document.getElementById("toggleButton");
+let togglebtn=document.getElementById("toggleButton");
 let dark=document.querySelectorAll(".dark");
 let bulb=document.getElementById("bulb");
 let body=document.querySelector("body");
@@ -7,8 +7,8 @@ let status=document.getElementById("status");
 
 button.addEventListener("click",()=>{
 
-        let chintu=bulb.classList.toggle("off");
-        if(chintu){
+        let billu=bulb.classList.toggle("off");
+        if(billu){
             body.style.backgroundColor="black";
             button.textContent="Turn On";
             status.textContent="Status:Off";
