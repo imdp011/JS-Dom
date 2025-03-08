@@ -88,8 +88,3 @@ addbtn.addEventListener("click",()=>{
 
 })
 
-
-
-function chintu(){
-    console.log("chintu");
-}
